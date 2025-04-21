@@ -16,6 +16,10 @@ npm install
 npm run dev
 ```
 
+## Настройка сервера по ссылке:
+
+https://github.com/avito-tech/tech-internship/tree/main/Tech%20Internships/Frontend/Frontend-trainee-assignment-spring-2025/server
+
 Проект написан на React, Redux Toolkit.
 
 Redux Toolkit выбрал для реализации сложной клиентской логики и для хранения множества состояний, вокруг которых выстраивалось всё приложение.
