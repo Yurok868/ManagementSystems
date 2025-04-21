@@ -1,0 +1,154 @@
+.conteiner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.content {
+  margin-top: 30px;
+  background-color: #a2c2eb;
+  max-width: 1100px;
+  width: 100%;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.title {
+  background-color: #1a70cc;
+  width: 1100px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 38px;
+}
+
+.tasks {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin: 15px;
+  max-width: 1000px;
+  width: 100%;
+}
+
+.oneTask {
+  border-radius: 7px;
+  background-color: rgb(210, 219, 223);
+  border: 2px solid #173154;
+  font-size: 24px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  align-items: center;
+}
+
+.searchFilter {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.search {
+  max-width: 200px;
+  width: 100%;
+  height: 30px;
+  font-size: 30px;
+  padding: 20px;
+  border: 3px solid black;
+}
+
+.butFilter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  width: 100%;
+  height: 30px;
+  font-size: 20px;
+  padding: 20px;
+  border: 3px solid black;
+}
+
+.selectFilter {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.filters {
+  padding: 10px;
+  position: absolute;
+  top: 125%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(212, 209, 209);
+  border-radius: 5px;
+  border: 2px solid black;
+}
+
+.oneFilter {
+  padding: 10px;
+  font-size: 15px;
+  margin: 5px;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.loader {
+  max-height: 700px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.error {
+  border-radius: 10px;
+  border: 2px solid black;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 45px;
+  text-align: center;
+}
+
+.changeBut {
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: 2px solid #173154;
+  background-color: #1a70cc;
+  color: white;
+}
+
+@media (max-width: 550px) {
+  .oneTask {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
+
+@media (max-width: 400px) {
+  .searchFilter {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+}

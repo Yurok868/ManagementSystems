@@ -1,0 +1,12 @@
+.addTask {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.addButton {
+  background-color: #1a70cc;
+  padding: 12px;
+  font-size: 24px;
+  border-radius: 10px;
+  color: white;
+}
