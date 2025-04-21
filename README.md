@@ -1,22 +1,18 @@
 # Тестовое задание для стажёра Frontend-направления (весенняя волна 2025) (Project Management Systems)
 
+
 ## Инструкция по запуску:
-
-## Клонировать репозиторий
-
-git clone git@github.com:Yurok868/ManagementSystems.git
-cd ManagementSystems
-
-## Установить зависимости
 
 ```bash
 # Клонировать репозиторий
 git clone git@github.com:Yurok868/ManagementSystems.git
 cd ManagementSystems
 
-# Установить зависимостей
+# Установить зависимости
 cd client
 npm install
+
+# Стартануть сервер
 npm run dev
 ```
 
